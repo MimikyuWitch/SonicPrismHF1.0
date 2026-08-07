@@ -6,5 +6,5 @@ Hopefully (but probably not) the final Prism Repo
 
 
 
-I wanna take a pic of cardi b
+I wanna take a pic with cardi b
 
