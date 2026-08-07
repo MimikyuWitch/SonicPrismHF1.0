@@ -1,0 +1,39 @@
+/// @description Script
+	if(sign(image_xscale) = 1)
+	{
+		if(obj_player.ground_speed > 0 && player_collide_object(COLLISION.MAIN))
+		{
+			//Play the sound
+			if(obj_player.state != player_state_roll)
+			{
+				sound_play(sfx_roll);	
+			}
+			
+			obj_player.force_roll = true;
+			obj_player.state = player_state_roll;
+		}
+		
+		if(obj_player.ground_speed < 0 && player_collide_object(COLLISION.MAIN))
+		{
+			obj_player.force_roll = false;	
+		}
+	}
+	else
+	{
+		if(obj_player.ground_speed < 0 && player_collide_object(COLLISION.MAIN))
+		{
+			//Play the sound
+			if(obj_player.state != player_state_roll)
+			{
+				sound_play(sfx_roll);	
+			}
+			
+			obj_player.force_roll = true;
+			obj_player.state = player_state_roll;
+		}
+		
+		if(obj_player.ground_speed > 0 && player_collide_object(COLLISION.MAIN))
+		{
+			obj_player.force_roll = false;	
+		}
+	}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_shield_fire",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.7169388,
+  "exportDir":"",
+  "name":"sfx_shield_fire",
+  "parent":{
+    "name":"Shield",
+    "path":"folders/Sounds/Sound Effects/Shield.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_shield_fire.wav",
+  "volume":1.0,
+}

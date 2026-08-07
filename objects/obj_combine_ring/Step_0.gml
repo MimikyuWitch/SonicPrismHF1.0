@@ -1,0 +1,65 @@
+     
+	var _scale = 1.2 + (dcos(1 * 8) * 0.22)
+	image_xscale = _scale
+	image_yscale = _scale
+	
+	var RandomRingSparkle = [spr_ring_sparkle, spr_ring_sparkle, spr_ring_sparkle, spr_ring_sparkle, spr_ring_sparkle, spr_ring_sparkle];
+	
+	//Add timer
+	timer++
+	
+	//Shatter the big ring
+	if(timer > 256)
+	{
+		instance_create_ringloss(rings);
+		sound_play(sfx_dust);
+		sound_play(sfx_ringloss);
+		obj_player.combineloss = 0;
+		instance_destroy();	
+	}
+	
+	//Collect the ring
+	if(obj_player.state != player_state_knockout && player_collide_object(COLLISION.MAIN))
+	{
+		global.rings += rings;	
+		instance_destroy();
+		sound_play(sfx_ring);
+		obj_player.combineloss = 0;
+		for (var i = 0; i < 4; ++i) {
+		    instance_create_particle(x + random_range(-16, 16), y + random_range(-16, 16), spr_ring_sparkle, 0.2);	
+		}
+	}
+	
+	//Create effects
+	if(FRAME_TIMER mod 8 == 0)
+	{
+		instance_create_particle(x + random_range(-16, 16), y + random_range(-16, 16), spr_ring_sparkle, 0.2);	
+		instance_create_particle(x + random_range(-16, 16), y + random_range(-16, 16), spr_ring_sparkle, 0.2);	
+	}
+	
+	//Add speeds to position
+	x += x_speed;
+	y += y_speed;
+	
+	//Gravity
+	y_speed += 0.09375;
+			
+	//Collision detection
+	var hc = collision_get_distance(x + 16 * sign(x_speed), y, sign(x_speed) ? COLLISION_MODE.LEFT_WALL : COLLISION_MODE.RIGHT_WALL, plane, false);
+	var vc = collision_get_distance(x, y + 16 * sign(y_speed), sign(y_speed) ? COLLISION_MODE.FLOOR : COLLISION_MODE.CEILING, plane, sign(y_speed));
+		
+	// Bounce off floor and ceiling
+	if(vc < 0)
+	{
+		y += vc * sign(y_speed);
+		y_speed *= -1;
+	}
+		
+	// Bounce off walls
+	if(hc < 0)
+	{
+		x += hc * sign(x_speed);
+		x_speed *= -1;
+	}
+
+	

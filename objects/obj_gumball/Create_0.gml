@@ -1,0 +1,14 @@
+enum GUMBALL {
+	EMPTY,
+	NORMAL,
+	BUBBLE,
+	ELECTRIC,
+	FIRE,
+	RINGS,
+	ONEUP,
+	REPOSITION,
+	BUMPER
+}
+reward = GUMBALL.EMPTY;
+y_speed = 0;
+y_accel = 0.21875 * 0.75;
