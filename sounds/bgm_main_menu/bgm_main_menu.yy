@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":52.326008,
+  "duration":118.615395,
   "exportDir":"",
   "name":"bgm_main_menu",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_main_menu.ogg",
+  "soundFile":"bgm_main_menu.wav",
   "volume":1.0,
 }
