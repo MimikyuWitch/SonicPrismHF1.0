@@ -31,7 +31,6 @@
 	
 	// Characters (this one is complex)
 	gpu_set_blendmode(bm_subtract);
-	draw_sprite(spr_menu_chars, current_char, (CAMERA_VIEW_W * 0.66), CAMERA_VIEW_H - (20 * ease_in_elastic(char_bounce)));
 	gpu_set_blendmode(bm_normal);
 	
 	// Draw the rest of the owl

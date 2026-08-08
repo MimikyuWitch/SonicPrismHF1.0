@@ -27,7 +27,7 @@
 			{
 				leave = true;
 			
-				fade_to_room(rm_arboreal_agate1, 2);
+				fade_to_room(rm_stage_select, 2);
 				music_set_fade(FADE.OUT, 2);
 			
 				sound_play(sfx_menu_select);

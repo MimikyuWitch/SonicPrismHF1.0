@@ -39,7 +39,7 @@
 		act_text = "ZONE"	
 	}
 	
-	var zone_text = string_upper(string(obj_level.stage_name));
+	var zone_text = obj_level.stage_name;
 	
 	draw_set_font(global.font_titlecard);
 	draw_set_halign(fa_left);

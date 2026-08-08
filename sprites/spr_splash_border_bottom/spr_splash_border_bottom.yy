@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":6,
   "parent":{
-    "name":"Splash Screen",
-    "path":"folders/Sprites/Menus Sprites/Splash Screen.yy",
+    "name":"Harmony Splash",
+    "path":"folders/Sprites/Menus Sprites/Harmony Splash.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

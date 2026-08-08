@@ -17,7 +17,7 @@
 	
 	draw_clear_alpha(c_white, 0);
 	
-	draw_sprite_ext(spr_splash_logo, 0, WINDOW_WIDTH / 2, (WINDOW_HEIGHT / 2), scale_x, scale_y, 0, c_white, 1);
+	draw_sprite_ext(spr_splash_logo, 0, WINDOW_WIDTH / 2, (WINDOW_HEIGHT / 2), 1, 1, 0, c_white, 1);
 	
 	surface_reset_target();
 	

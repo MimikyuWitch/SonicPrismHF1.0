@@ -39,14 +39,14 @@
 		bar_pos += 108;
 	
 		if (actionPress) && !skipped {
-			fade_to_room(room_next(room), 4);
+			fade_to_room(rm_main_menu, 4);
 			skipped = true;
 		}
 		
 	}
 	else
 	{
-		fade_to_room(room_next(room), 1);
+		fade_to_room(rm_main_menu, 1);
 		
 		ease_timer[2] = math_approach(ease_timer[2], 1, 0.008);
 		

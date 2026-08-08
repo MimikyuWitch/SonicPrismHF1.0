@@ -1,4 +1,7 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Team Splash","order":2,"path":"folders/Sprites/Menus Sprites/Team Splash.yy",},
+    {"name":"SEGA Splash","order":1,"path":"folders/Sprites/Menus Sprites/SEGA Splash.yy",},
+  ],
   "ResourceOrderSettings":[],
 }
