@@ -14,12 +14,12 @@ if (globe_hidden)
 	var fl = turn_flip ? -1 : 1;
 	//Match the turn sprite's checkerboard colours to the current palette parity
 	var turn_spr = (palette_page & 1) ? spr_bss_globe_turn_b : spr_bss_globe_turn_a;
-	draw_sprite_ext(turn_spr, turn_frame, center_x, 240, fl, 1, 0, c_white, 1);
+	draw_sprite_ext(turn_spr, turn_frame, center_x, 224, fl, 1, 0, c_white, 1);
 }
 else
 {
 	var bf = ((palette_page & 1) * 16 + palette_line) mod 32;
-	draw_sprite(spr_bss_globe_roll, bf, center_x, 240);
+	draw_sprite(spr_bss_globe_roll, bf, center_x, 224);
 }
 
 shader_reset();

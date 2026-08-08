@@ -45,12 +45,18 @@
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 	
+	var zone_textb = obj_level.stage_nameb;
+	
+	draw_set_font(global.font_titlecard);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+	
 	if(timer < 100) {
 		var curve = animcurve_get(curve_titlecard)
 		var c_channel_3 = animcurve_get_channel(curve,"curve3")
 		var c_channel_4 = animcurve_get_channel(curve,"curve4")
 		offset[4] = (-string_width(zone_text)) - 24 + (animcurve_channel_evaluate(c_channel_3, min(timer / 100,1)) * (string_width(zone_text)+ 71 + 24))
-		offset[6] = -string_width(act_text) - 24 + (animcurve_channel_evaluate(c_channel_4, min(timer / 100,1)) * (string_width(act_text)+ 71 + 24))
+		offset[6] = (-string_width(act_text)) - 24 + (animcurve_channel_evaluate(c_channel_4, min(timer / 100,1)) * (string_width(act_text)+ 71 + 24))
 	}
 	
 	//Draw the top line of title card

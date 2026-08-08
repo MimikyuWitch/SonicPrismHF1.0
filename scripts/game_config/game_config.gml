@@ -2,7 +2,7 @@
 	
 	// Game's default resolution
 	#macro GAME_WINDOW_WIDTH 320
-	#macro GAME_WINDOW_HEIGHT 240
+	#macro GAME_WINDOW_HEIGHT 224
 	
 	// The size of the grid for the angle sensors, default is 16x16
 	#macro ANGLE_GRID_SIZE 16
