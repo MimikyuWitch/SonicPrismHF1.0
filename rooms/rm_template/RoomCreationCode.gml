@@ -5,7 +5,8 @@
 		stage_music = MUSIC.TECHDEMO_TOWER
 		
 		//Set level name
-		stage_name = "Template Level";
+		stage_name = "Template";
+		stage_nameb = "Level";
 		
 		//Set stage act
 		act = 0;

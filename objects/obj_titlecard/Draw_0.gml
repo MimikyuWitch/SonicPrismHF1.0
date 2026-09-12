@@ -34,9 +34,9 @@
 	// Make the HUD follow the camera
 	draw_set_follow_camera();
 	
-	var act_text = "ZONE " + string(obj_level.act)
+	var act_text = "zone " + string(obj_level.act)
 	if (obj_level.act == 0) {
-		act_text = "ZONE"	
+		act_text = "zone"	
 	}
 	
 	var zone_text = obj_level.stage_name;

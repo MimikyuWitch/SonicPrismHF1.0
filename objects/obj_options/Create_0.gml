@@ -1,6 +1,6 @@
 	menu = obj_main_menu;
 	
-	option_name = ["WINDOW SIZE", "MUSIC VOLUME", "SOUND VOLUME"];
+	option_name = ["RESOLUTION", "MASTER VOLUME", "MUSIC VOLUME", "SFX VOLUME"];
 	option_variables = array_create(array_length(option_name), 0);
 	option_offset = array_create(array_length(option_name), 256);
 	option_ease = array_create(array_length(option_name), 1);

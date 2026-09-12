@@ -12,6 +12,12 @@ function game_init_music_list()
 	music_add(MUSIC.ARBOREAL_AGATE2, bgm_arboreal_agate2, 15.239);
 	music_add(MUSIC.BONUS, bgm_bonus, 16.657, 92.33, true);
 	music_add(MUSIC.BLUE_SPHERES, bgm_blue_spheres, 6.923);
+	//music_add(MUSIC.ALPHA_CHAMBER1, bgm_alpha_chamber1
+	//music_add(MUSIC.ALPHA_CHAMBER2, bgm_alpha_chamber2
+	//music_add(MUSIC.HALITE_MANGROVE1, bgm_halite_mangrove1
+	//music_add(MUSIC.HALITE_MANGROVE2, bgm_halite_mangrove2
+	//music_add(MUSIC.GREEN_HILLS1, bgm_green_hills1
+	//music_add(MUSIC.GREEN_HILLS2, bgm_green_hills2
 	
 	// General stage music:
 	music_add(MUSIC.MINI_BOSS, bgm_mini_boss, 6.923);

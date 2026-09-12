@@ -4,7 +4,8 @@
 		stage_music = MUSIC.TECHDEMO_TOWER
 		
 		//Set level name
-		stage_name = "tECHDEMO tOWER";
+		stage_name = "Techdemo";
+		stage_nameb = "Tower";
 		
 		//Set stage act
 		act = 0;
@@ -16,5 +17,5 @@
 		animal = [A_FLICKY, A_CUCKY, A_RICKY];
 		
 		//Next level
-		next_level = room;
+		next_level = rm_splash_harmony;
 	}

@@ -15,6 +15,7 @@ function game_init_global_variables()
 	global.draw_state = ds_stack_create();
 	
 	//Setup volume
+	global.master_volume = 1;				//Master volume
 	global.bgm_volume = 1;					//Music's channel volume
 	global.sfx_volume = 1;					//Sound effects volume
 	
@@ -29,7 +30,7 @@ function game_init_global_variables()
 	
 	global.bonus_room = rm_bonus				//Which bonus stage a checkpoint sends you to
 	global.store_object_state = ds_list_create();
-	global.previous_room = rm_splash
+	global.previous_room = rm_splash_harmony
 	global.store_player_state = 
 	{
 		shield : SHIELD.NONE,

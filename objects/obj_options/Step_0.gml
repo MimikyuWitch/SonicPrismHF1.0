@@ -45,10 +45,14 @@
 				break;
 				
 				case 1:
+				global.master_volume = clamp(global.master_volume + (h * 0.1), 0, 1);
+				break;
+
+				case 2:
 				global.bgm_volume = clamp(global.bgm_volume + (h * 0.1), 0, 1);
 				break;
 				
-				case 2:
+				case 3:
 				global.sfx_volume = clamp(global.sfx_volume + (h * 0.1), 0, 1);
 				break;
 			}

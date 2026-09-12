@@ -39,8 +39,8 @@
   ],
   "name":"rm_template",
   "parent":{
-    "name":"00 - Test Stage",
-    "path":"folders/Rooms/Stages/00 - Test Stage.yy",
+    "name":"00 - Test Stages",
+    "path":"folders/Rooms/Stages/00 - Test Stages.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

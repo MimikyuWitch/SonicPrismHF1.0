@@ -4,7 +4,8 @@
 		stage_music = MUSIC.ARBOREAL_AGATE2;
 		
 		//Set level name
-		stage_name = "UR mOM";
+		stage_name = "ur";
+		stage_nameb = "Mom";
 		
 		//Set stage act
 		act = 2;
@@ -16,5 +17,5 @@
 		animal = [A_FLICKY, A_CUCKY, A_RICKY];
 		
 		//Next level
-		next_level = rm_splash;
+		next_level = rm_techdemo_tower;
 	}

@@ -10,8 +10,8 @@
 	draw_rectangle(0, floor(cursor_y - cursor_size), CAMERA_VIEW_W, floor(cursor_y + cursor_size), false);
 	draw_set_alpha(1);
 	
-	draw_text_colour(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) - 96 + 4 - transition_offset, "GAME OPTIONS", c_black, c_black, c_black, c_black, 1.0);
-	draw_text(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) - 96 - transition_offset, "GAME OPTIONS");
+	draw_text_colour(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) - 96 + 4 - transition_offset, "game options", c_black, c_black, c_black, c_black, 1.0);
+	draw_text(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) - 96 - transition_offset, "game options");
 	
 	draw_set_font(global.font_small);
 	draw_text(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) + 96 + transition_offset, "EXIT");

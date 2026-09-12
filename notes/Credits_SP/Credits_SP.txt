@@ -1,0 +1,21 @@
+Project Lead:
+	-MimikyuWitch
+
+Framework Programming:
+	-Darkn
+	-Chopp
+	-joshyflip
+	
+Stage Art:
+	-MimikyuWitch
+
+Level Design
+	-MimikyuWitch*
+	-BB8Jankie
+
+Additional Programming:
+	-MimikyuWitch
+	
+Special thanks:
+	-Sonic Physics Guide
+	-Ultra Ring

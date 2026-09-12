@@ -4,7 +4,7 @@
 	hold_h = 0;
 	hold_v = 0;
 	state = dev_menu_state.normal;
-	menu_list = ["START GAME", "STAGE SELECT", "OPTIONS", "EXIT GAME"];
+	menu_list = ["START GAME", "STAGE SELECT", "OPTIONS", "EXTRAS", "EXIT GAME"];
 	menu_select = 0;
 	
 	//Suspend the game
@@ -63,6 +63,7 @@
 	//Add all of option entries
 	dev_menu_add_option_number("Sound Volume", "sfx_volume", 0.0, 1.0, 0.05);
 	dev_menu_add_option_number("Music Volume", "bgm_volume", 0.0, 1.0, 0.05);
+	dev_menu_add_option_number("Master Volume", "master_volume", 0.0, 1.0, 0.05);
 	dev_menu_add_option_number("Window Width", "window_width", 128, 1920, 1);
 	dev_menu_add_option_number("Window Height", "window_height", 128, 1920, 1);
 	dev_menu_add_option_number("Window Size", "window_size", 1, 4, 1);
@@ -75,7 +76,7 @@
 	
 	//Add the presentation category
 	dev_menu_add_category("PRESENTATION");
-	dev_menu_add_entry("SPLASH", rm_splash);
+	dev_menu_add_entry("SPLASH", rm_splash_harmony);
 	dev_menu_add_entry("TITLE SCREEN", rm_title_screen);
 	dev_menu_add_entry("MAIN MENU", rm_main_menu);
 	dev_menu_add_entry("STAGE SELECT", rm_stage_select);

@@ -8,15 +8,17 @@
 	show_debug_message(sound_arr[0])
 	
 	//The lists
-	zone_list = [["ARBOREAL AGATE", rm_arboreal_agate1, rm_arboreal_agate2],
-	["TEST STAGE", rm_techdemo_tower],
+	zone_list = [["ARBOREAL AGATE & TECHDEMO TOWER", rm_arboreal_agate1, rm_arboreal_agate2, rm_techdemo_tower],
+	["ALPHA CHAMBER", rm_alpha_chamber1, rm_alpha_chamber2],
+	["HALITE MANGROVE", rm_halite_mangrove1, rm_halite_mangrove2],
+	["GREEN HILLS", rm_green_hills1, rm_green_hills2],
 	];
 	
 	level_reset_data();
 	level_reset_bg_visibility();
 	global.score = 0;
 
-	quotes = ["WELCOME TO HARMONY FRAMEWORK!"];
+	quotes = ["Sonic Prism Sucks!"];
 	
 	quote_index = irandom(array_length(quotes)-1);
 	
@@ -25,7 +27,7 @@
 	image_index = 0;
 	
 	fade_in_room(5);
-	music_play(MUSIC.MAIN_MENU);
+	music_play(MUSIC.SUPER);
 	
 	//Create stage data
 	for (var i = 0; i < 128; ++i) 

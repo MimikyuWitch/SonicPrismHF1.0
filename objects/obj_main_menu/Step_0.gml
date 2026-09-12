@@ -55,7 +55,7 @@
 			{
 				case 0:
 				different_bg = true;	
-				instance_create_depth(0, 0, depth - 10, obj_character_select);
+				instance_create_depth(0, 0, depth - 10, obj_save_select);
 				break;
 				
 				case 1:
@@ -65,8 +65,13 @@
 			}
 		}
 		
-		// Exit the game
 		if(select == 2)
+		{
+			sound_play(sfx_menu_decline)
+		}
+		
+		// Exit the game
+		if(select == 3)
 		{
 			fade_change(FADE.OUT, 2);
 			music_set_fade(FADE.OUT, 2);
@@ -92,8 +97,8 @@
 	
 	// Character sprite
 	var charsprite = select;
-	if(instance_exists(obj_character_select))
-		charsprite += obj_character_select.select;
+	if(instance_exists(obj_save_select))
+		charsprite += obj_save_select.select;
 	if(select == 2) charsprite = 3;
 	
 	if(current_char != charsprite)

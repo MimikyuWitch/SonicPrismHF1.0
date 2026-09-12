@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"j_team",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.0,
+  "exportDir":"",
+  "name":"j_team",
+  "parent":{
+    "name":"Jingle Music",
+    "path":"folders/Sounds/Music/Jingle Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"j_team.wav",
+  "volume":1.0,
+}
