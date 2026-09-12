@@ -39,7 +39,7 @@
 		bar_pos += 108;
 	
 		if (actionPress) && !skipped {
-			fade_to_room(rm_main_menu, 4);
+			fade_to_room(rm_title_reference, 4);
 			skipped = true;
 		}
 		

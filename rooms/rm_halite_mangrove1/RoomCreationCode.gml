@@ -4,8 +4,8 @@
 		stage_music = MUSIC.ARBOREAL_AGATE1;
 		
 		//Set level name
-		stage_name = "Halite";
-		stage_nameb = "Mangrove";
+		stage_name = "Halite Mangrove";
+		stage_nameb = " ";
 		
 		//Set stage act
 		act = 1;

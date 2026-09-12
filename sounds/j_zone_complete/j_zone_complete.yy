@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":8.256508,
+  "duration":6.0,
   "exportDir":"",
   "name":"j_zone_complete",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"j_zone_complete.ogg",
+  "soundFile":"j_zone_complete.wav",
   "volume":1.0,
 }

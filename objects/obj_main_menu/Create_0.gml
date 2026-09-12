@@ -1,7 +1,7 @@
 	// Play music
 	music_play(MUSIC.MAIN_MENU);
 	
-	selections = ["start game", "options", "extras", "exit"];
+	selections = ["save select", "options", "extras", "exit"];
 	
 	timer = 0;
 	select = 0;

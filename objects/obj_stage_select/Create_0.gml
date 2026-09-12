@@ -8,7 +8,7 @@
 	show_debug_message(sound_arr[0])
 	
 	//The lists
-	zone_list = [["ARBOREAL AGATE & TECHDEMO TOWER", rm_arboreal_agate1, rm_arboreal_agate2, rm_techdemo_tower],
+	zone_list = [["TECHDEMO AGATE", rm_arboreal_agate1, rm_arboreal_agate2, rm_techdemo_tower],
 	["ALPHA CHAMBER", rm_alpha_chamber1, rm_alpha_chamber2],
 	["HALITE MANGROVE", rm_halite_mangrove1, rm_halite_mangrove2],
 	["GREEN HILLS", rm_green_hills1, rm_green_hills2],

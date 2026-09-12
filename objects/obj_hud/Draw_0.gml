@@ -37,10 +37,12 @@
 		draw_set_valign(fa_top);
 	
 		//Draw number
-		draw_text(120 + offset[0], 9, string(global.score));
-		draw_text(120 + offset[1], 25, string(minute)+" "+(sec > 9 ? "" : "0") + string(sec)+" "+(milsec > 9 ? "" : "0") + string(milsec));
-		draw_text(96 + offset[2], 41, string(global.rings));
-		draw_text(56 + offset[3], global.window_height - 24, (global.life > 9 ? "" : "0") + string(global.life));
+		draw_text(111 + offset[0], 9, string(global.score));
+		draw_text(111 + offset[1], 25, string(minute)+" "+(sec > 9 ? "" : "0") + string(sec)+" "+(milsec > 9 ? "" : "0") + string(milsec));
+		draw_text(95 + offset[2], 41, string(global.rings));
+		
+		draw_set_font(global.font_small);
+		draw_text(62 + offset[3], global.window_height - 19, (global.life > 9 ? "" : "0") + string(global.life));
 		
 		if (obj_player.combinering == 1){
 			draw_sprite(spr_monitor_icon_combine_ring, 0, 24 + offset[2], 64);	

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":22.613333,
+  "duration":38.42612,
   "exportDir":"",
   "name":"j_speedshoe",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"j_speedshoe.ogg",
-  "volume":1.0,
+  "soundFile":"j_speedshoe.mp3",
+  "volume":0.5,
 }

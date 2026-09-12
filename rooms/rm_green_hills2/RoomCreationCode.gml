@@ -1,11 +1,11 @@
 	with(obj_level)
 	{
 		//Set stage music and loop points
-		stage_music = MUSIC.ARBOREAL_AGATE1;
+		stage_music = MUSIC.GREEN_HILLS2;
 		
 		//Set level name
-		stage_name = "Green";
-		stage_nameb = "Hills";
+		stage_name = "Green Hills";
+		stage_nameb = " ";
 		
 		//Set stage act
 		act = 2;

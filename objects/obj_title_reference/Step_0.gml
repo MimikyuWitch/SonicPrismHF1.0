@@ -46,7 +46,7 @@ if(timer < 2430)
 }
 else
 {
-	fade_to_room(room_next(room), 3);
+	fade_to_room(rm_main_menu, 3);
 	
 	ease_timer[2] = math_approach(ease_timer[2], 1, 0.008);
 	

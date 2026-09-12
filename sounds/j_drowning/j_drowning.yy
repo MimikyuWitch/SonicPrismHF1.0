@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":10.698232,
+  "duration":13.690612,
   "exportDir":"",
   "name":"j_drowning",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"j_drowning.ogg",
+  "soundFile":"j_drowning.wav",
   "volume":1.0,
 }
