@@ -43,8 +43,8 @@
   ],
   "name":"rm_alpha_chamber2",
   "parent":{
-    "name":"02 - Alpha Chamber",
-    "path":"folders/Rooms/Stages/02 - Alpha Chamber.yy",
+    "name":"01 - Alpha Chamber",
+    "path":"folders/Rooms/Stages/01 - Alpha Chamber.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

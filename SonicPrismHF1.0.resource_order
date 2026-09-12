@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
-    {"name":"02 - Alpha Chamber","order":1,"path":"folders/Rooms/Stages/02 - Alpha Chamber.yy",},
-    {"name":"03 - Halite Mangrove","order":2,"path":"folders/Rooms/Stages/03 - Halite Mangrove.yy",},
-    {"name":"04 - Green Hills","order":3,"path":"folders/Rooms/Stages/04 - Green Hills.yy",},
+    {"name":"01 - Alpha Chamber","order":1,"path":"folders/Rooms/Stages/01 - Alpha Chamber.yy",},
+    {"name":"02 - Halite Mangrove","order":2,"path":"folders/Rooms/Stages/02 - Halite Mangrove.yy",},
+    {"name":"03 - Green Hills","order":3,"path":"folders/Rooms/Stages/03 - Green Hills.yy",},
     {"name":"Harmony Splash","order":1,"path":"folders/Sprites/Menus Sprites/Harmony Splash.yy",},
     {"name":"Main Menu","order":2,"path":"folders/Sprites/Menus Sprites/Main Menu.yy",},
     {"name":"SEGA Splash","order":5,"path":"folders/Sprites/Menus Sprites/SEGA Splash.yy",},
@@ -10,6 +10,7 @@
     {"name":"Team Splash","order":6,"path":"folders/Sprites/Menus Sprites/Team Splash.yy",},
     {"name":"Title Reference","order":7,"path":"folders/Sprites/Menus Sprites/Title Reference.yy",},
     {"name":"Title Screen","order":4,"path":"folders/Sprites/Menus Sprites/Title Screen.yy",},
+    {"name":"Alpha Chamber","order":1,"path":"folders/Sprites/Stage Sprites/Alpha Chamber.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Credits_SP","order":1,"path":"notes/Credits_SP/Credits_SP.yy",},

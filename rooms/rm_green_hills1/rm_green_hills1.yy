@@ -43,8 +43,8 @@
   ],
   "name":"rm_green_hills1",
   "parent":{
-    "name":"04 - Green Hills",
-    "path":"folders/Rooms/Stages/04 - Green Hills.yy",
+    "name":"03 - Green Hills",
+    "path":"folders/Rooms/Stages/03 - Green Hills.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

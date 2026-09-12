@@ -43,8 +43,8 @@
   ],
   "name":"rm_halite_mangrove2",
   "parent":{
-    "name":"03 - Halite Mangrove",
-    "path":"folders/Rooms/Stages/03 - Halite Mangrove.yy",
+    "name":"02 - Halite Mangrove",
+    "path":"folders/Rooms/Stages/02 - Halite Mangrove.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

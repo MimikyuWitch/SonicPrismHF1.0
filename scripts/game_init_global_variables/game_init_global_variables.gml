@@ -65,7 +65,7 @@ function game_init_global_variables()
 	//Customizables variables
 	global.rotation_type = 0;				// This changes player's visual rotation 
 	global.use_peelout = true;				// Flag that allows peel-out ability
-	global.use_dropdash = true;				// Flag that allows dropdash ability
+	global.use_dropdash = false;			// Flag that allows dropdash ability
 	global.use_airroll = false;				// Flag that allows rolling while air-borne
 	global.use_spindash = true;				// Flag that allows player to use the spindash
 	global.use_insta_shield = false;		// Flag that allows player to use the insta shield
