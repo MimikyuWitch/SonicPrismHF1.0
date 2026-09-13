@@ -6,8 +6,8 @@
 	var trueX = 0;
 	var trueY = (CAMERA_VIEW_H / 2) + transition_offset;
 	
-	draw_text_colour(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) - 96 + 4 - transition_offset, "choose your character", c_black, c_black, c_black, c_black, 1.0);
-	draw_text(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) - 96 - transition_offset, "choose your character");
+	draw_text_colour(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) - 96 + 4 - transition_offset, "choose a fucker", c_black, c_black, c_black, c_black, 1.0);
+	draw_text(CAMERA_VIEW_W / 2, (CAMERA_VIEW_H / 2) - 96 - transition_offset, "choose a fucker");
 	
 	draw_set_font(global.font_small);
 	for (var i = 0; i < 3; ++i) 
