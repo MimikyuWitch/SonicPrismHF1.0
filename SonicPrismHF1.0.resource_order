@@ -10,6 +10,7 @@
     {"name":"Team Splash","order":6,"path":"folders/Sprites/Menus Sprites/Team Splash.yy",},
     {"name":"Title Reference","order":7,"path":"folders/Sprites/Menus Sprites/Title Reference.yy",},
     {"name":"Title Screen","order":4,"path":"folders/Sprites/Menus Sprites/Title Screen.yy",},
+    {"name":"Amalgam&Metal","order":1,"path":"folders/Sprites/Player Sprites/Amalgam&Metal.yy",},
     {"name":"Alpha Chamber","order":1,"path":"folders/Sprites/Stage Sprites/Alpha Chamber.yy",},
   ],
   "ResourceOrderSettings":[
@@ -46,6 +47,7 @@
     {"name":"j_SEGA","order":1,"path":"sounds/j_SEGA/j_SEGA.yy",},
     {"name":"j_team","order":2,"path":"sounds/j_team/j_team.yy",},
     {"name":"spr_Mars_Sample_Program","order":1,"path":"sprites/spr_Mars_Sample_Program/spr_Mars_Sample_Program.yy",},
+    {"name":"spr_metal_cardboard2","order":1,"path":"sprites/spr_metal_cardboard2/spr_metal_cardboard2.yy",},
     {"name":"spr_monitor_icon_life_amy","order":1,"path":"sprites/spr_monitor_icon_life_amy/spr_monitor_icon_life_amy.yy",},
     {"name":"spr_monitor_icon_super","order":2,"path":"sprites/spr_monitor_icon_super/spr_monitor_icon_super.yy",},
     {"name":"spr_splash_sega_starA","order":4,"path":"sprites/spr_splash_sega_starA/spr_splash_sega_starA.yy",},
