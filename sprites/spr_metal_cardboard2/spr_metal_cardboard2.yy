@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_metal_cardboard2",
   "bboxMode":0,
-  "bbox_bottom":47,
+  "bbox_bottom":39,
   "bbox_left":2,
   "bbox_right":28,
-  "bbox_top":8,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":48,
+  "height":40,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"6a763075-9751-47a2-aa05-f69ba59c3122","blendMode":0,"displayName":"default","isLocked":false,"name":"6a763075-9751-47a2-aa05-f69ba59c3122","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

@@ -18,7 +18,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"Example Tileset",
-    "path":"folders/Tile Sets/Example Tileset.yy",
+    "path":"folders/Tile Sets/Zones/Example Tileset.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

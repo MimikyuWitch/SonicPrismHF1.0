@@ -18,7 +18,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"Arboreal Agate",
-    "path":"folders/Tile Sets/Arboreal Agate.yy",
+    "path":"folders/Tile Sets/Zones/Arboreal Agate.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

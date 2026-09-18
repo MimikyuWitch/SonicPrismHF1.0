@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Arboreal Agate",
-    "path":"folders/Tile Sets/Arboreal Agate.yy",
+    "path":"folders/Tile Sets/Zones/Arboreal Agate.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

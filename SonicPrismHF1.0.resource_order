@@ -12,6 +12,9 @@
     {"name":"Title Screen","order":4,"path":"folders/Sprites/Menus Sprites/Title Screen.yy",},
     {"name":"Amalgam&Metal","order":1,"path":"folders/Sprites/Player Sprites/Amalgam&Metal.yy",},
     {"name":"Alpha Chamber","order":1,"path":"folders/Sprites/Stage Sprites/Alpha Chamber.yy",},
+    {"name":"Zones","order":1,"path":"folders/Tile Sets/Zones.yy",},
+    {"name":"Example Tileset","order":1,"path":"folders/Tile Sets/Zones/Example Tileset.yy",},
+    {"name":"Green Hills","order":2,"path":"folders/Tile Sets/Zones/Green Hills.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Credits_SP","order":1,"path":"notes/Credits_SP/Credits_SP.yy",},
