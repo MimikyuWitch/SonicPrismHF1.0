@@ -11,7 +11,7 @@ function game_init_music_list()
 	music_add(MUSIC.ARBOREAL_AGATE1, bgm_arboreal_agate1);
 	music_add(MUSIC.ARBOREAL_AGATE2, bgm_arboreal_agate2, 15.239);
 	music_add(MUSIC.BONUS, bgm_bonus, 16.657, 92.33, true);
-	music_add(MUSIC.BLUE_SPHERES, bgm_blue_spheres, 6.923);
+	music_add(MUSIC.BLUE_SPHERES, bgm_blue_spheres, 1.948, 43.077);
 	music_add(MUSIC.ALPHA_CHAMBER1, bgm_alpha_chamber1);
 	//music_add(MUSIC.ALPHA_CHAMBER2, bgm_alpha_chamber2
 	//music_add(MUSIC.HALITE_MANGROVE1, bgm_halite_mangrove1
