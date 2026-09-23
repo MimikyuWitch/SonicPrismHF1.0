@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.4651246,
+  "duration":77.844894,
   "exportDir":"",
   "name":"bgm_title_temp",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_title_temp.wav",
+  "soundFile":"bgm_title_temp.mp3",
   "volume":1.0,
 }

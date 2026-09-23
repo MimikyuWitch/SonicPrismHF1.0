@@ -1,9 +1,9 @@
-if timer < 110
+if timer < 115
 {
 	draw_sprite(spr_title_reference_ring, 0, 0, 0);
 }
 
-if (timer > 110)
+if (timer >= 115)
 {
 	draw_sprite(spr_title_reference_ring, 1, 0, 0);
 	//idfk

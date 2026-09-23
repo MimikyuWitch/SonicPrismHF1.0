@@ -36,6 +36,6 @@ sound_play(bgm_title_temp);
 //start button animation
 animator = new animator_create();
 
-animation_add(0, spr_title_reference_startbutton, 13, 0, true, true);
+animation_add(0, spr_title_reference_startbutton, 20, 0, true, true);
 
 animation_play(animator, 0);

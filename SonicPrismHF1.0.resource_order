@@ -1,11 +1,11 @@
 {
   "FolderOrderSettings":[
-    {"name":"Green Hills","order":6,"path":"folders/Objects/Stage Objects/Green Hills.yy",},
     {"name":"Base Stage","order":1,"path":"folders/Objects/Stage Objects/Base Stage.yy",},
     {"name":"Blue Spheres","order":2,"path":"folders/Objects/Stage Objects/Blue Spheres.yy",},
     {"name":"Bonus Stage","order":3,"path":"folders/Objects/Stage Objects/Bonus Stage.yy",},
     {"name":"Common Objects","order":4,"path":"folders/Objects/Stage Objects/Common Objects.yy",},
     {"name":"Effects","order":5,"path":"folders/Objects/Stage Objects/Effects.yy",},
+    {"name":"Green Hills","order":6,"path":"folders/Objects/Stage Objects/Green Hills.yy",},
     {"name":"01 - Alpha Chamber","order":1,"path":"folders/Rooms/Stages/01 - Alpha Chamber.yy",},
     {"name":"02 - Halite Mangrove","order":2,"path":"folders/Rooms/Stages/02 - Halite Mangrove.yy",},
     {"name":"03 - Green Hills","order":3,"path":"folders/Rooms/Stages/03 - Green Hills.yy",},
