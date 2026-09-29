@@ -53,7 +53,7 @@ function player_animation_list()
 		if (!super) 
 		{
 			animation_add(ANIM.STAND, spr_sonic_idle, 0.2)
-			animation_add(ANIM.WAIT, spr_sonic_wait, 6, 2, true, true);
+			animation_add(ANIM.WAIT, spr_sonic_wait, 12, 43, true, true);
 			animation_add(ANIM.WALK, spr_sonic_walk, 3, 0, true, true);
 			animation_add(ANIM.RUN, spr_sonic_run, 2, 0, true, true);
 			animation_add(ANIM.MAXRUN, spr_sonic_peelout, 0, 0, true, true);
@@ -77,7 +77,7 @@ function player_animation_list()
 		animation_add(ANIM.SPRING, spr_sonic_spring, 0.4, 0, true, false);
 		animation_add(ANIM.SKID, spr_sonic_skid, 0.4, 0, false, false);
 		animation_add(ANIM.SKIDTURN, spr_sonic_skidturn, 0.3, 0, false, false);
-		animation_add(ANIM.HURT, spr_sonic_hurt, 0.3, 0, false, false);
+		animation_add(ANIM.HURT, spr_sonic_hurt, 0.3, 0, true, false);
 		animation_add(ANIM.DIE, spr_sonic_death, 0.3, 0, false, false);
 		animation_add(ANIM.DROWN, spr_sonic_drown, 0.3, 0, false, false);
 		animation_add(ANIM.BREATHE, spr_sonic_breathe, 16, 0, false, true);

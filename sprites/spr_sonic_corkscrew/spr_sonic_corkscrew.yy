@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_sonic_corkscrew",
   "bboxMode":0,
-  "bbox_bottom":52,
-  "bbox_left":18,
+  "bbox_bottom":53,
+  "bbox_left":19,
   "bbox_right":49,
-  "bbox_top":15,
+  "bbox_top":11,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{

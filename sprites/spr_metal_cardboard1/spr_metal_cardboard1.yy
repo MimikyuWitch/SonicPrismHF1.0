@@ -52,8 +52,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Amalgam&Metal",
-    "path":"folders/Sprites/Player Sprites/Amalgam&Metal.yy",
+    "name":"Green Hills",
+    "path":"folders/Sprites/Stage Sprites/Green Hills.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
