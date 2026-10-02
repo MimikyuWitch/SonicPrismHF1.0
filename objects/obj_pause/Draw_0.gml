@@ -3,16 +3,16 @@
 	draw_set_follow_camera();
 	
 	//Draw background
-	draw_set_alpha(background_rect_alpha);
-	draw_rectangle(0, 0, CAMERA_VIEW_W, background_rect_y, false);
-	draw_set_alpha(1);
+// 	draw_set_alpha(background_rect_alpha);
+//	draw_rectangle(0, 0, CAMERA_VIEW_W, background_rect_y, false);
+//	draw_set_alpha(1);
 	
 	// Get the bar size
 	var barWidth = sprite_get_width(spr_hud_pause_bar);
 	var barHeight = sprite_get_height(spr_hud_pause_bar);
 	
 	// Draw the black bar below
-	draw_set_colour(c_black);
+	draw_set_colour(genesis_black);
 	
 	// Just draw the fill
 	draw_rectangle(pause_bar_x + barWidth, 0, CAMERA_VIEW_W, CAMERA_VIEW_H, false);

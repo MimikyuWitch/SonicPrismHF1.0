@@ -23,6 +23,8 @@
 	
 	pause_alpha = 0;
 	
+	genesis_black = $242424;
+	
 	
 	
 	audio_pause_all();
