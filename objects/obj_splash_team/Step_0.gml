@@ -1,7 +1,7 @@
 	timer++
 	var actionPress = input_press(INPUT.A) || input_press(INPUT.B) || input_press(INPUT.C) || input_press(INPUT.START);
 	
-	if(timer < 250)
+	if(timer < 280)
 	{
 		for (var i = 0; i < 64; ++i) 
 		{

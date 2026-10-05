@@ -45,8 +45,6 @@
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 	
-	var zone_textb = obj_level.stage_nameb;
-	
 	draw_set_font(global.font_titlecard);
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);

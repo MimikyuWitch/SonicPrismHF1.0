@@ -5,7 +5,6 @@
 		
 		//Set level name
 		stage_name = "Green Hills";
-		stage_nameb = " ";
 		
 		//Set stage act
 		act = 1;

@@ -4,8 +4,7 @@
 		stage_music = MUSIC.TECHDEMO_TOWER
 		
 		//Set level name
-		stage_name = "Techdemo";
-		stage_nameb = "Tower";
+		stage_name = "Techdemo Tower";
 		
 		//Set stage act
 		act = 0;

@@ -1,5 +1,5 @@
 	menu = obj_main_menu;
-	char_names = ["SONIC", "TAILS", "KNUCKLES"];
+	char_names = ["SONIC", "TAILS", "KNUCKLES", "AMY"];
 	char_y = array_create(3, 0);
 	select = 0;
 	

@@ -5,7 +5,6 @@
 		
 		//Set level name
 		stage_name = "Alpha Chamber";
-		stage_nameb = " ";
 		
 		//Set stage act
 		act = 2;

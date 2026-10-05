@@ -32,7 +32,7 @@
 	}
 	
 	//Play act clear music
-	if(timer = 100 && state = 0)
+	if(timer = 20 && state = 0)
 	{
 		music_reset_fade();
 		music_play(MUSIC.ACT_CLEAR, 0);
@@ -48,7 +48,7 @@
 	}
 	
 	//Subtract from the count
-	if(timer > 450 && state = 0){
+	if(timer > 380 && state = 0){
 		//Subtract time bonus
 		if(time_bonus > 0) {
 			time_bonus -= 100; 

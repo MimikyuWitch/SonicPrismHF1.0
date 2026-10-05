@@ -27,7 +27,7 @@
   ],
   "name":"spr_hud_actclear_character",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Act Clear",
     "path":"folders/Sprites/GUI Sprites/Act Clear.yy",
@@ -92,7 +92,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":90,
-    "yorigin":8,
+    "yorigin":5,
   },
   "swatchColours":null,
   "swfPrecision":2.525,
