@@ -4,7 +4,7 @@
 	hold_h = 0;
 	hold_v = 0;
 	state = dev_menu_state.normal;
-	menu_list = ["START GAME", "STAGE SELECT", "OPTIONS", "EXTRAS", "EXIT GAME"];
+	menu_list = ["START GAME", "STAGE SELECT", "OPTIONS", "EXIT GAME"];
 	menu_select = 0;
 	
 	//Suspend the game
