@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.36564627,
+  "duration":0.36637187,
   "exportDir":"",
   "name":"sfx_destroy",
   "parent":{

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.019433,
+  "duration":2.021882,
   "exportDir":"",
   "name":"sfx_roll",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_roll.ogg",
+  "soundFile":"sfx_roll.wav",
   "volume":1.0,
 }

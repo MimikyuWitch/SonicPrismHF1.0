@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.6749433,
+  "duration":1.6780952,
   "exportDir":"",
   "name":"sfx_warp_into",
   "parent":{

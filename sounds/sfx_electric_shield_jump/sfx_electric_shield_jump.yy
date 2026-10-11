@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.45099774,
+  "duration":0.45265305,
   "exportDir":"",
   "name":"sfx_electric_shield_jump",
   "parent":{

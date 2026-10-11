@@ -14,7 +14,7 @@
 		if(v != 0)
 		{
 			select = math_wrap(select + v, 0, array_length(option_name));
-			sound_play(sfx_beep);	
+			sound_play(sfx_Zbeep);	
 		}
 		
 		if(select < array_length(option_name))
@@ -35,7 +35,7 @@
 		// Change the options
 		if(h != 0)
 		{
-			sound_play(sfx_beep);
+			sound_play(sfx_Zbeep);
 			
 			switch(select)
 			{

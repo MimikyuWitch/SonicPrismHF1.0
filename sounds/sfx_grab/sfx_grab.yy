@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.262517,
+  "duration":0.101405896,
   "exportDir":"",
   "name":"sfx_grab",
   "parent":{

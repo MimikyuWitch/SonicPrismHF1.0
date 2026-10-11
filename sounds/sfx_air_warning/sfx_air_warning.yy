@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.2106802,
+  "duration":0.75258505,
   "exportDir":"",
   "name":"sfx_air_warning",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_air_warning.ogg",
+  "soundFile":"sfx_air_warning.wav",
   "volume":1.0,
 }

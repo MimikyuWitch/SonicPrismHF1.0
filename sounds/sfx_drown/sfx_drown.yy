@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.678934,
+  "duration":1.6641951,
   "exportDir":"",
   "name":"sfx_drown",
   "parent":{

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.26732427,
+  "duration":0.26546484,
   "exportDir":"",
   "name":"sfx_rubber",
   "parent":{

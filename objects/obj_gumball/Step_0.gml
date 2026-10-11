@@ -12,7 +12,7 @@ image_speed = 0;
 if (player_collide_object(COLLISION.MAIN) && !obj_player.input_disable){
 	switch (reward){
 		case GUMBALL.EMPTY:
-			sound_play(sfx_burst);
+			sound_play(sfx_pop);
 			instance_destroy();
 		break;
 		case GUMBALL.NORMAL:
@@ -46,7 +46,7 @@ if (player_collide_object(COLLISION.MAIN) && !obj_player.input_disable){
 			instance_destroy();
 		break;
 		case GUMBALL.REPOSITION:
-			sound_play(sfx_burst);
+			sound_play(sfx_pop);
 			var spring = obj_crumple_spring;
 			spring.y = spring.ystart;
 			spring.crumple = false;

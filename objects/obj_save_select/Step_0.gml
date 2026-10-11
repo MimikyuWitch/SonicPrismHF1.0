@@ -7,7 +7,7 @@
 		if(in != 0)
 		{
 			select = math_wrap(select + in, 0, 2);	
-			sound_play(sfx_beep);
+			sound_play(sfx_Zbeep);
 		}
 	
 		// Update the Y offset

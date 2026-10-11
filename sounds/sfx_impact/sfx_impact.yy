@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.66648525,
+  "duration":0.66578233,
   "exportDir":"",
   "name":"sfx_impact",
   "parent":{

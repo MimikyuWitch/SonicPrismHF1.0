@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.5004082,
+  "duration":2.5038776,
   "exportDir":"",
   "name":"sfx_event",
   "parent":{

@@ -12,7 +12,7 @@
 	if(timer > 256)
 	{
 		instance_create_ringloss(rings);
-		sound_play(sfx_dust);
+		sound_play(sfx_Zdust);
 		sound_play(sfx_ringloss);
 		obj_player.combineloss = 0;
 		instance_destroy();	

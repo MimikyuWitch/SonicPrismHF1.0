@@ -36,7 +36,7 @@
 			highlight_x = CAMERA_VIEW_W;
 			
 			animator_reset(animator);
-			sound_play(sfx_beep);
+			sound_play(sfx_Zbeep);
 		}
 		
 		// Confirm the selection

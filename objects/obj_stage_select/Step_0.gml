@@ -6,7 +6,7 @@
 	var zone_arr = array_length(zone_list);
 	
 	//Noises
-	if(press_x != 0 || press_y != 0) sound_play(sfx_beep);
+	if(press_x != 0 || press_y != 0) sound_play(sfx_Zbeep);
 	
 	//Select zones
 	zone_sel += press_y;

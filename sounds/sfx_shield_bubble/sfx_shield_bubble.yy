@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.7173016,
+  "duration":0.72,
   "exportDir":"",
   "name":"sfx_shield_bubble",
   "parent":{

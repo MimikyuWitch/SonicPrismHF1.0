@@ -56,7 +56,7 @@
 		}
 
 		if (FRAME_TIMER mod 4 == 0 && (ring_bonus > 0 || perfect_bonus > 0))
-			sound_play(sfx_scoreadd);
+			sound_play(sfx_scoreadd_and_button);
 
 		//No more count down, switch to ending events
 		if (ring_bonus == 0 && perfect_bonus == 0)

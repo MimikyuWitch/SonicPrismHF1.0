@@ -25,7 +25,7 @@ function player_state_glide(){
 		y_speed -= 0.125;
 	}
 	
-	//Force x speed to glide speed
+	//Force x speed to glide speedkn
 	x_speed = glide_speed * dsin(knuckles_angle);
 	
 	if(knuckles_angle == 90 || knuckles_angle == -90)

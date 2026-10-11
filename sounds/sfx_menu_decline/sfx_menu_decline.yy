@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.79931974,
+  "duration":0.8011791,
   "exportDir":"",
   "name":"sfx_menu_decline",
   "parent":{

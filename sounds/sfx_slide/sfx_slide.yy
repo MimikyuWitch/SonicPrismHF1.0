@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.250839,
+  "duration":0.24959184,
   "exportDir":"",
   "name":"sfx_slide",
   "parent":{

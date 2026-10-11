@@ -11,8 +11,8 @@
 	{
 		if(!touched_block)
 		{
-			if(!audio_is_playing(sfx_chain))
-				sound_play(sfx_chain, true);
+			if(!audio_is_playing(sfx_Zchain))
+				sound_play(sfx_Zchain, true);
 				
 			spike_y += spike_y_spd;
 			spike_y_spd += 0.2;	
@@ -26,7 +26,7 @@
 				
 				sound_play(sfx_impact);
 				
-				audio_stop_sound(sfx_chain);
+				audio_stop_sound(sfx_Zchain);
 			}
 		}
 		else
@@ -35,8 +35,8 @@
 			{
 				if(++raise_delay > 30)
 				{
-					if(!audio_is_playing(sfx_chain))
-						sound_play(sfx_chain, true);
+					if(!audio_is_playing(sfx_Zchain))
+						sound_play(sfx_Zchain, true);
 					
 					found_collision.y--;
 				}
@@ -55,7 +55,7 @@
 				
 				if(spike_y == spike_y_target)
 				{
-					audio_stop_sound(sfx_chain);
+					audio_stop_sound(sfx_Zchain);
 					
 					x_speed = 0;
 					boss_state = AAZ2_BSTATE.MOVE;

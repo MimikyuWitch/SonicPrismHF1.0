@@ -59,7 +59,7 @@ function player_hurt(hazard_x = x, hurt_type = K_HURT, player_id = 0)
 						if(shield != SHIELD.NONE)
 						{
 							shield = SHIELD.NONE;
-							sound_play(sfx_hurt);
+							sound_play(sfx_hurt_death);
 							exit;
 						}
 					
@@ -77,7 +77,7 @@ function player_hurt(hazard_x = x, hurt_type = K_HURT, player_id = 0)
 							var combi = instance_create_depth(x, y, depth-1, obj_combine_ring);
 							combi.rings = global.rings;
 							combi.x_speed = 1 * facing;
-							sound_play(sfx_hurt);
+							sound_play(sfx_hurt_death);
 							global.rings = 0;
 							combineloss = 1;
 							combinering = 0;
@@ -95,7 +95,7 @@ function player_hurt(hazard_x = x, hurt_type = K_HURT, player_id = 0)
 					}
 					else
 					{
-						sound_play(sfx_hurt);
+						sound_play(sfx_hurt_death);
 					}
 					
 				break;
@@ -259,7 +259,7 @@ function _player_kill()
 	camera_set_mode(CAM_NULL);
 			
 	//Play the hurt sound
-	sound_play(sfx_hurt);
+	sound_play(sfx_hurt_death);
 }
 
 /// @self								obj_player

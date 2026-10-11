@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.848367,
+  "duration":2.0000453,
   "exportDir":"",
   "name":"sfx_spring",
   "parent":{

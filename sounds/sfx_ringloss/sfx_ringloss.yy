@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.499864,
+  "duration":1.5030159,
   "exportDir":"",
   "name":"sfx_ringloss",
   "parent":{

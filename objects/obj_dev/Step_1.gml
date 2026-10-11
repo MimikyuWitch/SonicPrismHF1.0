@@ -110,7 +110,7 @@
 		if(keyboard_check_pressed(ord("6")))
 		{
 			obj_player.combinering = 1;
-			sound_play(sfx_combinering);
+			sound_play(sfx_Zcombinering);
 		}
 		
 		//Hurt the player

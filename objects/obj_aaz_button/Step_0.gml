@@ -27,7 +27,7 @@
 	            }
 	        }
 		}
-		if(beep) sound_play(sfx_beep);
+		if(beep) sound_play(sfx_Zbeep);
     }
 	else
 	{

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.7170975,
+  "duration":0.7184127,
   "exportDir":"",
   "name":"sfx_shield_electric",
   "parent":{

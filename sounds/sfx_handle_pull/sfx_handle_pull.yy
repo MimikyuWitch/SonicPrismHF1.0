@@ -15,7 +15,7 @@
     },
   },
   "conversionMode":0,
-  "duration":0.2814059,
+  "duration":0.2827211,
   "exportDir":"",
   "name":"sfx_handle_pull",
   "parent":{

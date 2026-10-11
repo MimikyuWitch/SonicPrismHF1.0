@@ -595,10 +595,10 @@ function bss_stepped_objects()
 					sphere_count = 0;
 					state = BSS_STATE.JETTISON;
 					spin_timer = 0;
-					sound_play(sfx_jettison);
+					sound_play(sfx_Zjettison);
 					music_set_fade(FADE.OUT, 1);
 				} else {
-					sound_play(sfx_blue_sphere);
+					sound_play(sfx_Zblue_sphere);
 				}
 			}
 			break;
@@ -610,7 +610,7 @@ function bss_stepped_objects()
 				spin_timer = 0;
 				globe_timer = 0;
 				stage_failed = true;
-				sound_play(sfx_warp_exit);
+				sound_play(sfx_Zwarp_exit);
 				music_set_fade(FADE.OUT, 1);
 			}
 			break;
@@ -660,7 +660,7 @@ function bss_stepped_objects()
 			{
 				array_push(collected, { ce : BSS_COLLECT.GREEN, cx : player_x, cy : player_y, t : 0 });
 				pf[fp] = BSS_CELL.GREEN_STOOD;
-				sound_play(sfx_blue_sphere);
+				sound_play(sfx_Zblue_sphere);
 			}
 			break;
 
@@ -671,7 +671,7 @@ function bss_stepped_objects()
 				spin_timer = 0;
 				globe_timer = 0;
 				tele_timer = 0;
-				sound_play(sfx_teleport);
+				sound_play(sfx_Zteleport);
 				fade_change(FADE.OUT, 6, FADE_COLOR.WHITE);
 			}
 			break;
@@ -710,10 +710,10 @@ function bss_stepped_objects()
 					sphere_count = 0;
 					state = BSS_STATE.JETTISON;
 					spin_timer = 0;
-					sound_play(sfx_jettison);
+					sound_play(sfx_Zjettison);
 					music_set_fade(FADE.OUT, 1);
 				} else {
-					sound_play(sfx_blue_sphere);
+					sound_play(sfx_Zblue_sphere);
 				}
 			}
 			break;
@@ -728,7 +728,7 @@ function bss_stepped_objects()
 				player_x = bss_wrap_x(player_x + (sin256(angle) >> 8));
 				player_y = bss_wrap_y(player_y - (cos256(angle) >> 8));
 				stage_failed = true;
-				sound_play(sfx_warp_exit);
+				sound_play(sfx_Zwarp_exit);
 				music_set_fade(FADE.OUT, 1);
 			}
 			break;
@@ -781,7 +781,7 @@ function bss_stepped_objects()
 			{
 				array_push(collected, { ce : BSS_COLLECT.GREEN, cx : posX, cy : posY, t : 0 });
 				pf[fp] = BSS_CELL.GREEN_STOOD;
-				sound_play(sfx_blue_sphere);
+				sound_play(sfx_Zblue_sphere);
 			}
 			break;
 
@@ -806,7 +806,7 @@ function bss_stepped_objects()
 				globe_timer = 0;
 				player_x = bss_wrap_x(player_x + (sin256(angle) >> 8));
 				player_y = bss_wrap_y(player_y - (cos256(angle) >> 8));
-				sound_play(sfx_warp_exit);
+				sound_play(sfx_Zwarp_exit);
 			}
 			break;
 	}

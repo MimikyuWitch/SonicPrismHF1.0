@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_Zwarp_ring",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.0359638,
+  "exportDir":"",
+  "name":"sfx_Zwarp_ring",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Sounds/Sound Effects/Objects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_Zwarp_ring.wav",
+  "volume":1.0,
+}

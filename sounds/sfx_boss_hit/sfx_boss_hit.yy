@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.84061223,
+  "duration":0.66612244,
   "exportDir":"",
   "name":"sfx_boss_hit",
   "parent":{

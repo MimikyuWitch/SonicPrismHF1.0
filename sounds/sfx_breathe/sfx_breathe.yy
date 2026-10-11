@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.346281,
+  "duration":0.34911564,
   "exportDir":"",
   "name":"sfx_breathe",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_breathe.ogg",
+  "soundFile":"sfx_breathe.wav",
   "volume":1.0,
 }

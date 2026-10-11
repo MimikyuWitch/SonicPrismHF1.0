@@ -376,7 +376,7 @@ switch (state)
 		globe_timer += globe_speed;
 		spin_timer++;
 		if (spin_timer == 120)
-			sound_play(reward_is_emerald ? j_chaos_emerald : sfx_shard_collect);
+			sound_play(reward_is_emerald ? j_chaos_emerald : sfx_Zshard_collect);
 		bss_stepped_objects();
 
 		if (globe_speed <= 0 && globe_timer < 0)

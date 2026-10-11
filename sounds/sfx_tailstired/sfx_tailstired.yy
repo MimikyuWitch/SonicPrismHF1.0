@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.288231,
+  "duration":0.25882086,
   "exportDir":"",
   "name":"sfx_tailstired",
   "parent":{

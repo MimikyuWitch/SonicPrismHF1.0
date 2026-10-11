@@ -50,7 +50,7 @@
 		
 		case MONITOR.COMBINE_RING:
 			obj_player.combinering = 1;
-			sound_play(sfx_combinering);
+			sound_play(sfx_Zcombinering);
 		break;
 		
 	}

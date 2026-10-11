@@ -1,6 +1,14 @@
 {
   "$GMWindowsOptions":"v2",
   "%Name":"Windows",
+  "ConfigValues":{
+    "Dev":{
+      "option_windows_version":"0.1.0.0",
+      "option_windows_executable_name":"Sonic Prism.exe",
+      "option_windows_display_name":"Sonic Prism",
+      "option_windows_icon":"icons/icon.ico",
+    },
+  },
   "name":"Windows",
   "option_windows_allow_fullscreen_switching":false,
   "option_windows_borderless":false,

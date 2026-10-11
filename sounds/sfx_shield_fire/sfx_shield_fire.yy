@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.7169388,
+  "duration":0.71920633,
   "exportDir":"",
   "name":"sfx_shield_fire",
   "parent":{

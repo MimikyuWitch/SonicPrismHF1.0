@@ -1,0 +1,31 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_pop",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "ConfigValues":{
+    "Dev":{
+      "audioGroupId":"{ \"name\":\"audiogroup_default\", \"path\":\"audiogroups/audiogroup_default\" }",
+    },
+  },
+  "conversionMode":0,
+  "duration":0.16979592,
+  "exportDir":"",
+  "name":"sfx_pop",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Sounds/Sound Effects/Objects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":22050,
+  "soundFile":"sfx_pop.wav",
+  "volume":1.0,
+}

@@ -1,7 +1,7 @@
 	death_timer++;
 	obj_level.disable_timer = true;
 	
-	audio_stop_sound(sfx_chain);
+	audio_stop_sound(sfx_Zchain);
 	
 	if(FRAME_TIMER mod 4 == 0 && !has_died)
 	{

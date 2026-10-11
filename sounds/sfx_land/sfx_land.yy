@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.16623583,
+  "duration":0.16371882,
   "exportDir":"",
   "name":"sfx_land",
   "parent":{

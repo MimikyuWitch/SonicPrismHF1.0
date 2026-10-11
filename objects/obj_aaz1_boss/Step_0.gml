@@ -47,7 +47,7 @@
 		p.x_speed *= -0.5;
 		p.y_speed *= -0.5;
 			
-		sound_play(sfx_boss_hit);
+		sound_play(sfx_boss_hit2);
 	}
 		
 	if(inv_timer > 0)

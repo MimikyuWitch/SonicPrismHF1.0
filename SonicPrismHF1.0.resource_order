@@ -58,6 +58,7 @@
     {"name":"bgm_title_temp","order":1,"path":"sounds/bgm_title_temp/bgm_title_temp.yy",},
     {"name":"j_SEGA","order":1,"path":"sounds/j_SEGA/j_SEGA.yy",},
     {"name":"j_team","order":2,"path":"sounds/j_team/j_team.yy",},
+    {"name":"sfx_boss_hit2","order":1,"path":"sounds/sfx_boss_hit2/sfx_boss_hit2.yy",},
     {"name":"spr_Mars_Sample_Program","order":1,"path":"sprites/spr_Mars_Sample_Program/spr_Mars_Sample_Program.yy",},
     {"name":"spr_metal_cardboard2","order":1,"path":"sprites/spr_metal_cardboard2/spr_metal_cardboard2.yy",},
     {"name":"spr_monitor_icon_life_amy","order":1,"path":"sprites/spr_monitor_icon_life_amy/spr_monitor_icon_life_amy.yy",},

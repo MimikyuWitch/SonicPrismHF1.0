@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.701655,
+  "duration":0.70160997,
   "exportDir":"",
   "name":"sfx_spike",
   "parent":{
