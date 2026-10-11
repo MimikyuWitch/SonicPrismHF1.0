@@ -263,10 +263,10 @@ function music_play_jingle()
 	{ 
 		sound_play(j_extra_life);
 	} 
-	else
-	{
-		sound_play(sfx_extralife);
-	}	
+//	else
+//	{
+//		sound_play(sfx_Zextralife);
+//	}	
 }
 
 /// @self								

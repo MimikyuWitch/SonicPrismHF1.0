@@ -48,7 +48,7 @@
 			}
 			else
 			{
-				sound_play(sfx_menu_select);
+				sound_play(sfx_Zmenu_select);
 				state = PAUSE_STATE.CONFIRM;
 			}
 		}

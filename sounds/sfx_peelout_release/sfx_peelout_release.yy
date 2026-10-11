@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.149864,
+  "duration":2.1499093,
   "exportDir":"",
   "name":"sfx_peelout_release",
   "parent":{

@@ -53,13 +53,13 @@ function player_water()
 		water_run = true;
 		
 		// Play the water run sound
-		if(global.water_running_effect == 0 && !audio_is_playing(sfx_water_run))
-			sound_play(sfx_water_run, true);
+		if(global.water_running_effect == 0 && !audio_is_playing(sfx_Xwater_run))
+			sound_play(sfx_Xwater_run, true);
 	}
 	
 	// Stop the water run sound
 	if(!water_run || on_terrain)
-		audio_stop_sound(sfx_water_run);
+		audio_stop_sound(sfx_Xwater_run);
     
     var pool_enter = (is_pool && ((y >= waterY && y < water.bbox_bottom-sprite_height/2) || (y <= water.bbox_bottom && y > water.bbox_bottom-sprite_height/2)));
     
@@ -131,7 +131,7 @@ function player_water()
 		{
 			if(shield == SHIELD.ELECTRIC)
 			{
-				sound_play(sfx_electric_shield_lose);
+				sound_play(sfx_Xelectric_shield_lose);
 				water.flash_hold_timer = 4;
 			}
 			

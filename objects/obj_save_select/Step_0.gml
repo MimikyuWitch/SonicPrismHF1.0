@@ -30,14 +30,14 @@
 				fade_to_room(rm_stage_select, 2);
 				music_set_fade(FADE.OUT, 2);
 			
-				sound_play(sfx_menu_select);
+				sound_play(sfx_Zmenu_select);
 			}
 		
 	
 			// Leave the character select
 			if(input_press(INPUT.B))
 			{
-				sound_play(sfx_menu_back);	
+				sound_play(sfx_Zmenu_back);	
 				returning = true;
 			}
 		}

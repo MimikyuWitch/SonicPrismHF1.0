@@ -44,7 +44,7 @@ function player_state_dropdash(){
 		//Roll state
 		state = player_state_roll;
 		dropdash_timer = 0;
-		if(audio_is_playing(sfx_dropdash)) audio_stop_sound(sfx_dropdash);
+		if(audio_is_playing(sfx_Zdropdash)) audio_stop_sound(sfx_Zdropdash);
 		if (!super){
 			sound_play(sfx_release);
 		} else {

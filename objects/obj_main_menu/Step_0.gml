@@ -36,7 +36,7 @@
 				selected = true;
 				selected_timer = 0;
 		
-				sound_play(sfx_menu_select);
+				sound_play(sfx_Zmenu_select);
 			}
 		}
 		

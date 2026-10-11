@@ -24,7 +24,7 @@
 	
 	if(input_press(INPUT.START) && !is_exiting && scale_test == 0)
 	{
-		sound_play(sfx_menu_select);
+		sound_play(sfx_Zmenu_select);
 		is_exiting = true;
 	}
 	

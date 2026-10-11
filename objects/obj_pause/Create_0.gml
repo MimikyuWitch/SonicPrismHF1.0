@@ -29,7 +29,7 @@
 	
 	audio_pause_all();
 	
-	sound_play(sfx_menu_select);
+	sound_play(sfx_Zmenu_select);
 	
 	// Create the animator
 	animator = new animator_create();

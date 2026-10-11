@@ -22,7 +22,7 @@
 	                if (move_once && moved) 
 						continue;
 	                state = DOOR.MOVING;
-					sound_play(sfx_opendoor);
+					sound_play(sfx_dooropen);
 					beep = false;
 	            }
 	        }

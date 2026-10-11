@@ -27,7 +27,7 @@
 			
 			if(input_press(INPUT.A) || input_press(INPUT.START))
 			{
-				sound_play(sfx_menu_select);
+				sound_play(sfx_Zmenu_select);
 				returning = true;	
 			}
 		}
@@ -60,7 +60,7 @@
 		
 		if(input_press(INPUT.B))
 		{
-			sound_play(sfx_menu_back);
+			sound_play(sfx_Zmenu_back);
 			returning = true;		
 		}
 		

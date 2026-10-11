@@ -2,7 +2,7 @@ function player_state_transform(){
 	if (!super) {
 		transform_timer = 60;
 		super = true;
-		sound_play(sfx_transform);
+		sound_play(sfx_Ztransform);
 		player_animation_list();
 		animator_reset(animator);	
 	}
