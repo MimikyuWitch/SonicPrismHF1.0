@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_menu_select_alt",
   "parent":{
-    "name":"Sound Effects",
-    "path":"folders/Sounds/Sound Effects.yy",
+    "name":"Menus",
+    "path":"folders/Sounds/Sound Effects/Menus.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

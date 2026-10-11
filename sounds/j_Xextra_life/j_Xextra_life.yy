@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"j_chaos_emerald",
+  "%Name":"j_Xextra_life",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":1,
+  "channelFormat":0,
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.6382084,
+  "duration":3.3384128,
   "exportDir":"",
-  "name":"j_chaos_emerald",
+  "name":"j_Xextra_life",
   "parent":{
     "name":"Jingle Music",
     "path":"folders/Sounds/Music/Jingle Music.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"j_chaos_emerald.mp3",
+  "soundFile":"j_Xextra_life.ogg",
   "volume":1.0,
 }

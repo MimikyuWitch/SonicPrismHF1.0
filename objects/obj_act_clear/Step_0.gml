@@ -93,7 +93,7 @@
 	}
 	
 	//Stop executing if extra life jingle is playing
-	if(state == 1 && audio_is_playing(j_extra_life) && timer >= 78) 
+	if(state == 1 && audio_is_playing(j_Xextra_life) && timer >= 78) 
 	{
 		timer = 78;
 	}

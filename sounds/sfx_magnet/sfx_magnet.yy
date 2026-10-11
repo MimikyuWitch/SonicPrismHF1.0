@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_magnet",
   "parent":{
-    "name":"Sound Effects",
-    "path":"folders/Sounds/Sound Effects.yy",
+    "name":"Objects",
+    "path":"folders/Sounds/Sound Effects/Objects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

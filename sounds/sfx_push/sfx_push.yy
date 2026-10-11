@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_push",
   "parent":{
-    "name":"Sound Effects",
-    "path":"folders/Sounds/Sound Effects.yy",
+    "name":"Player",
+    "path":"folders/Sounds/Sound Effects/Player.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

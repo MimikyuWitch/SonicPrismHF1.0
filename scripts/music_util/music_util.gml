@@ -42,7 +42,7 @@ function music_update()
 	music.general_fade_multiplier = clamp(music.general_fade_multiplier, 0, 1);
 	
 	//Apply fade and background volume to the extra life jingle
-	audio_sound_gain(j_extra_life, global.bgm_volume, 0);	
+	audio_sound_gain(j_Xextra_life, global.bgm_volume, 0);	
 	
 	for(var i = 0; i < MUSIC_CHANNEL_SIZE; i++)
 	{
@@ -93,7 +93,7 @@ function music_update()
 				}
 	
 				//Handle extra life jingle
-				if(audio_is_playing(j_extra_life))
+				if(audio_is_playing(j_Xextra_life))
 				{
 					if(music.playing[i] != noone && i != MUSIC_CHANNEL_SIZE)
 					{
@@ -261,7 +261,7 @@ function music_play_jingle()
 {
 	if (global.extra_life_jingle)
 	{ 
-		sound_play(j_extra_life);
+		sound_play(j_Xextra_life);
 	} 
 //	else
 //	{
