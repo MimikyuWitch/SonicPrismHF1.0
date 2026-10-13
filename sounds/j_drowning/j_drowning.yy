@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":13.690612,
+  "duration":19.71433,
   "exportDir":"",
   "name":"j_drowning",
   "parent":{

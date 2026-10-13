@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_insta_shield",
-    "path":"sprites/spr_insta_shield/spr_insta_shield.yy",
+    "name":"spr_Zinsta_shield",
+    "path":"sprites/spr_Zinsta_shield/spr_Zinsta_shield.yy",
   },
   "spriteMaskId":null,
   "visible":true,

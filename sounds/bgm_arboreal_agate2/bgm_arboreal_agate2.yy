@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":129.5238,
+  "duration":213.0663,
   "exportDir":"",
   "name":"bgm_arboreal_agate2",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_arboreal_agate2.ogg",
+  "soundFile":"bgm_arboreal_agate2.mp3",
   "volume":1.0,
 }

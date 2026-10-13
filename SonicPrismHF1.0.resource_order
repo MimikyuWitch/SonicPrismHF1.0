@@ -142,6 +142,7 @@
     {"name":"spr_metal_cardboard2","order":1,"path":"sprites/spr_metal_cardboard2/spr_metal_cardboard2.yy",},
     {"name":"spr_monitor_icon_life_amy","order":1,"path":"sprites/spr_monitor_icon_life_amy/spr_monitor_icon_life_amy.yy",},
     {"name":"spr_monitor_icon_super","order":2,"path":"sprites/spr_monitor_icon_super/spr_monitor_icon_super.yy",},
+    {"name":"spr_shield_broken","order":1,"path":"sprites/spr_shield_broken/spr_shield_broken.yy",},
     {"name":"spr_splash_sega_starA","order":4,"path":"sprites/spr_splash_sega_starA/spr_splash_sega_starA.yy",},
     {"name":"spr_splash_sega_starB","order":2,"path":"sprites/spr_splash_sega_starB/spr_splash_sega_starB.yy",},
     {"name":"spr_splash_sega_starC","order":3,"path":"sprites/spr_splash_sega_starC/spr_splash_sega_starC.yy",},

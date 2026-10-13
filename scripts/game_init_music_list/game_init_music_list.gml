@@ -3,13 +3,13 @@ function game_init_music_list()
 	global.music_map = ds_map_create();
 	
 	// Menu background music:
-	music_add(MUSIC.TITLE, bgm_title_screen, 3.856);
+	music_add(MUSIC.TITLE, bgm_Ztitle_screen, 3.856);
 	music_add(MUSIC.MAIN_MENU, bgm_menu);
 	
 	// Stage background music:
 	music_add(MUSIC.TECHDEMO_TOWER, bgm_test_stage, 0.000);
-	music_add(MUSIC.ARBOREAL_AGATE1, bgm_arboreal_agate1);
-	music_add(MUSIC.ARBOREAL_AGATE2, bgm_arboreal_agate2, 15.239);
+	music_add(MUSIC.ARBOREAL_AGATE1, bgm_arboreal_agate1, 122.781, 236.239);
+	music_add(MUSIC.ARBOREAL_AGATE2, bgm_arboreal_agate2, 102.953, 203.528);
 	music_add(MUSIC.BONUS, bgm_bonus, 16.657, 92.33, true);
 	music_add(MUSIC.BLUE_SPHERES, bgm_blue_spheres, 1.948, 43.077);
 	music_add(MUSIC.ALPHA_CHAMBER1, bgm_alpha_chamber1, 91.854);

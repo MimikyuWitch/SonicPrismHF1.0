@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.1249887,
   "exportDir":"",
   "name":"sfx_Zdropdash",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_Zdropdash.wav",
+  "soundFile":"sfx_Zdropdash.mp3",
   "volume":1.0,
 }

@@ -199,11 +199,11 @@ function player_water()
 				audio_play_sound(j_drowning, 0, false, global.bgm_volume);
 		
 		// Begin the count down
-		case 22 * 60:
-		case 24 * 60:
-		case 26 * 60:
-		case 28 * 60:
-		case 30 * 60:
+		case 22.5 * 60:
+		case 24.5 * 60:
+		case 26.5 * 60:
+		case 28.5 * 60:
+		case 30.5 * 60:
 			var drown_bubble = instance_create_depth(x + 6 * facing, y - 4, depth - 10, obj_drown_bubble);
 			drown_bubble.type = bubble_number;
 			drown_bubble.angle = facing == -1 ? 180 : 0;
@@ -211,7 +211,7 @@ function player_water()
 			
 		break;
 		// The end, drown the player
-		case 32 * 60:
+		case 32.5 * 60:
 			sound_play(sfx_drown);
 			camera_set_mode(CAM_NULL);
 			state = player_state_drown;
