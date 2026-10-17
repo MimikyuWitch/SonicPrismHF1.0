@@ -2,11 +2,15 @@
 	//Animal macros
 	#macro A_FLICKY 0
 	#macro A_POCKY 1
-	#macro A_CUCKY 2
+	#macro A_LOCKY 2
 	#macro A_RICKY 3
 	#macro A_PECKY 4
 	#macro A_ROCKY 5
-	#macro A_PICKY 6
+	#macro A_BECKY 6
+	#macro A_WOCKY 7
+	#macro A_MICKY 8
+	#macro A_TOCKY 9
+	
 	
 	//Randomize the animal
 	random_animal = random(array_length(obj_level.animal));
@@ -23,11 +27,14 @@
 	// Add the animal animations
 	animation_add(A_FLICKY, spr_animal_flicky, 0, 1);
 	animation_add(A_POCKY, spr_animal_pocky, 0, 1);
-	animation_add(A_CUCKY, spr_animal_cucky, 0, 1);
+	animation_add(A_LOCKY, spr_animal_locky, 0, 1);
 	animation_add(A_RICKY, spr_animal_ricky, 0, 1);
 	animation_add(A_PECKY, spr_animal_pecky, 0, 1);
 	animation_add(A_ROCKY, spr_animal_rocky, 0, 1);
-	animation_add(A_PICKY, spr_animal_picky, 0, 1);
+	animation_add(A_BECKY, spr_animal_becky, 0, 1);
+	animation_add(A_WOCKY, spr_animal_wocky, 0, 1);
+	animation_add(A_MICKY, spr_animal_micky, 0, 1);
+	animation_add(A_TOCKY, spr_animal_tocky, 0, 1);
 	
 	// Play the correct animation
 	animation_play(animator, animal_type);

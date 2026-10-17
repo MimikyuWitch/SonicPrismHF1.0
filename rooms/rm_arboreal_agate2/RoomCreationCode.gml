@@ -13,7 +13,7 @@
 		act_transition = false;
 		
 		//Animal array
-		animal = [A_FLICKY, A_CUCKY, A_RICKY];
+		animal = [A_FLICKY, A_LOCKY, A_RICKY];
 		
 		//Next level
 		next_level = rm_techdemo_tower;

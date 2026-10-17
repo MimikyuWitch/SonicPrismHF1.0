@@ -13,7 +13,7 @@
 		act_transition = true;
 		
 		//Animal array
-		animal = [A_FLICKY, A_CUCKY, A_RICKY];
+		animal = [A_LOCKY, A_ROCKY];
 		
 		//Next level
 		next_level = rm_alpha_chamber2;

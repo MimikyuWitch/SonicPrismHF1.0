@@ -13,7 +13,7 @@
 		act_transition = true;
 		
 		//Animal array
-		animal = [A_FLICKY, A_CUCKY, A_RICKY];
+		animal = [A_FLICKY, A_POCKY];
 		
 		//Next level
 		next_level = rm_splash_harmony;

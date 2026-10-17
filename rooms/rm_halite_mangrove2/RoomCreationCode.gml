@@ -13,7 +13,7 @@
 		act_transition = true;
 		
 		//Animal array
-		animal = [A_FLICKY, A_CUCKY, A_RICKY];
+		animal = [A_TOCKY, A_ROCKY];
 		
 		//Next level
 		next_level = rm_green_hills1;
