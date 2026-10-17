@@ -166,6 +166,7 @@
     {"name":"spr_title_reference_notcopyright","order":2,"path":"sprites/spr_title_reference_notcopyright/spr_title_reference_notcopyright.yy",},
     {"name":"spr_title_reference_ribbon","order":3,"path":"sprites/spr_title_reference_ribbon/spr_title_reference_ribbon.yy",},
     {"name":"spr_title_reference_ring","order":4,"path":"sprites/spr_title_reference_ring/spr_title_reference_ring.yy",},
+    {"name":"spr_title_reference_sonic","order":6,"path":"sprites/spr_title_reference_sonic/spr_title_reference_sonic.yy",},
     {"name":"spr_title_reference_startbutton","order":5,"path":"sprites/spr_title_reference_startbutton/spr_title_reference_startbutton.yy",},
     {"name":"tex_pal_superknux","order":3,"path":"sprites/tex_pal_superknux/tex_pal_superknux.yy",},
     {"name":"tex_pal_supersonic","order":9,"path":"sprites/tex_pal_supersonic/tex_pal_supersonic.yy",},

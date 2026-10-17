@@ -28,7 +28,7 @@
   ],
   "name":"spr_splash_logo",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Harmony Splash",
     "path":"folders/Sprites/Menus Sprites/Harmony Splash.yy",
@@ -83,7 +83,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":92,
-    "yorigin":46,
+    "yorigin":50,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

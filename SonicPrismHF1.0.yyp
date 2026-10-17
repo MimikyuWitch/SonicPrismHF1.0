@@ -868,6 +868,7 @@
     {"id":{"name":"spr_title_reference_notcopyright","path":"sprites/spr_title_reference_notcopyright/spr_title_reference_notcopyright.yy",},},
     {"id":{"name":"spr_title_reference_ribbon","path":"sprites/spr_title_reference_ribbon/spr_title_reference_ribbon.yy",},},
     {"id":{"name":"spr_title_reference_ring","path":"sprites/spr_title_reference_ring/spr_title_reference_ring.yy",},},
+    {"id":{"name":"spr_title_reference_sonic","path":"sprites/spr_title_reference_sonic/spr_title_reference_sonic.yy",},},
     {"id":{"name":"spr_title_reference_startbutton","path":"sprites/spr_title_reference_startbutton/spr_title_reference_startbutton.yy",},},
     {"id":{"name":"spr_title_shadow","path":"sprites/spr_title_shadow/spr_title_shadow.yy",},},
     {"id":{"name":"spr_title_sonic_face","path":"sprites/spr_title_sonic_face/spr_title_sonic_face.yy",},},
