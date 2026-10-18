@@ -1,0 +1,14 @@
+background_frame[0] += 0.1
+background_frame[1] += 0.1
+background_frame[2] += 0.1
+background_frame[3] += 0.1
+background_frame[4] += 0.1
+background_frame[5] += 0.1
+background_frame[6] += 0.1
+background_frame[7] += 0.1
+background_frame[8] += 0.1
+background_frame[9] += 0.1
+background_frame[10] += 0.1
+background_frame[11] += 0.1
+background_frame[12] += 0.1
+background_frame[13] += 0.1
